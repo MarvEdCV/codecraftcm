@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CodeCraft CM — Estamos evolucionando</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(160deg, #0f0f0f, #1a1a1a);
+      color: #f3f3f3;
+      font-family: 'Inter', sans-serif;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin-bottom: 0.5rem;
+      color: #ffffff;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 300;
+      color: #b0b0b0;
+      margin-bottom: 2rem;
+    }
+
+    a {
+      color: #00bfa6;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #00ffd1;
+    }
+
+    .glow {
+      animation: fadeGlow 4s ease-in-out infinite alternate;
+    }
+
+    @keyframes fadeGlow {
+      from { text-shadow: 0 0 5px #00bfa6; }
+      to { text-shadow: 0 0 15px #00ffd1; }
+    }
+
+    footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="glow">CodeCraft CM</h1>
+  <h2>Estamos evolucionando</h2>
+  <p>
+    Si deseas contactarnos, escríbenos a <br />
+    <a href="mailto:contacto@codecraftcm.com">contacto@codecraftcm.com</a>
+  </p>
+
+  <footer>© 2025 CodeCraft CM. Todos los derechos reservados.</footer>
+</body>
+</html>
